@@ -1,0 +1,337 @@
+*{margin:0px;
+font-family:Arial;
+border:border-box;}
+
+
+.navbar{height:60px;
+   top: 0px;
+
+    display: flex;
+    position: sticky;
+
+    
+  }
+.navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+    opacity: 0.2;}
+
+
+.logo{padding-top: 14px;
+padding-left: 10px;}
+
+.navbar ul{display: flex;}
+
+.navbar ul li{list-style: none;
+font-size: 1.2rem;
+padding:15px;
+}
+
+.navbar ul li a{text-decoration:none;
+ 
+color: white;}
+.navbar ul li a:hover{border:2px solid red;
+border-radius: 10px;
+color: black;
+background-color: white; }
+
+.nav-search{display: flex;
+height: 22px;
+padding-top: 20px;
+padding-left: 35px;}
+.search-icon{background-color: rgb(61, 19, 175);
+width:20px}
+.search-bar{width:350px;
+}
+.nav-cart{margin-left: 42px;}
+
+.box1::before{ 
+  content: "";
+  position: absolute;
+  background: url("box1.jpg") no-repeat center center/cover;
+  height: 500px;
+  top:0px;
+  left:0px;
+  width: 100%;
+  z-index: -1;
+  opacity:1;
+ 
+}
+
+.new{font-size: 2rem;}
+
+
+
+.section1 {margin-top: 460px;
+  font-size: 2.2rem;
+  text-align: center;
+}
+.section1 p{background-color: yellow;
+margin-bottom: 15px;}
+.section{margin-top: 15px;
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  .section p{background-color: yellow;
+    margin-bottom: 15px;}
+#bike{display:flex
+}
+
+#img1{background-image: url("bajaj pulsar 125.webp");
+  height: 300px;
+  width: 110%;
+  background-size: cover;
+border: 2px solid red;
+}
+#img2{background-image: url("revolt RV400.webp");
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  border: 2px solid red;}
+#img3{background-image: url("mt-15-2-062e4b1bb4ffad.webp");
+  height: 300px;
+  width: 110%;
+  background-size: cover;
+  border: 2px solid red;}
+#img4{background-image: url("hero-motocorp-splendor628c6c03932f2.webp");
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  border: 2px solid red;}
+
+/* scooter section */
+#scooters{display:flex
+}
+
+#img5{background-image: url("eletric ola Air.webp");
+  height: 300px;
+  width: 110%;
+  background-size: cover;
+border: 2px solid red;
+
+}
+#img6{background-image: url("BattREElectic Storie.webp");
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  border: 2px solid red;}
+#img7{background-image: url("TVS XL 100.webp");
+  height: 300px;
+  width: 110%;
+  background-size: cover;
+  border: 2px solid red;}
+#img8{background-image: url("Motovolt Urbn e-Bike.webp");
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  border: 2px solid red;}
+
+  /* electric section */
+
+  #electric-zone{display:flex
+  }
+  
+  #img9{background-image: url("eletric ola Air.webp");
+    height: 300px;
+    width: 110%;
+    background-size: cover;
+  border: 2px solid red;
+  }
+  #img10{background-image: url("Motovolt Urbn e-Bike.webp");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    border: 2px solid red;}
+  #img11{background-image: url("ultraviolette F77 electric.webp");
+    height: 300px;
+    width: 110%;
+    background-size: cover;
+    border: 2px solid red;}
+  #img12{background-image: url("Avon E Scoot.webp");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    border: 2px solid red;}
+
+  /* brand section */
+
+  #top-brands{display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+ margin-left: 88px;
+ margin-right: 88
+ px;
+ margin-bottom: 30px;
+   
+  }
+ 
+  
+  #img13{background-image: url("bajaj.webp");
+    height: 120px;
+    width: 270px;
+    background-size: cover;
+  border: 2px solid red;
+ margin-top: 20px;
+ margin-left: 35px;
+
+  }
+  #img14{background-image: url("hero.webp");
+    height: 120px;
+    width: 270px;
+    background-size: cover;
+    border: 2px solid red;
+    margin-top: 20px;
+    margin-left: 35px;
+    }
+  #img15{background-image: url("honda.webp");
+    height: 120px;
+    width: 270px;
+    background-size: cover;
+    border: 2px solid red;
+    margin-top: 20px;
+    margin-left: 35px;}
+  #img16{background-image: url("jawa-motorcycles.webp");
+    height: 120px;
+    width: 270px;
+    background-size: cover;
+    border: 2px solid red;
+    margin-top: 20px;
+    margin-left: 35px;}
+    #img17{background-image: url("kawasaki.webp");
+      height: 120px;
+      width: 270px;
+      background-size: cover;
+      border: 2px solid red;
+      margin-top: 20px;
+      margin-left: 35px;}
+      #img18{background-image: url("ktm.webp");
+        height: 120px;
+        width: 270px;
+        background-size: cover;
+        border: 2px solid red;
+        margin-top: 20px;
+        margin-left: 35px;
+      }
+        #img19{background-image: url("suzuki.webp");
+          height: 120px;
+          width: 270px;
+          background-size: cover;
+          border: 2px solid red;
+          margin-top: 20px;
+          margin-left: 35px;
+        }
+          #img20{background-image: url("tvs.webp");
+            height: 120px;
+            width: 270px;
+            background-size: cover;
+            border: 2px solid red;
+            margin-top: 20px;
+            margin-left: 35px;
+          }
+            #img20{background-image: url("yamaha.webp");
+              height: 120px;
+              width: 270px;
+              background-size: cover;
+              border: 2px solid red;
+              margin-top: 20px;
+              margin-left: 35px;
+            }
+/* img section */
+
+.img{margin-left: 10px;
+margin-right:18px;
+}
+.img:hover{transform: scale(1.1);
+z-index:2}
+
+.money{font-size: 3rem;
+}
+
+
+
+/* form section */
+
+
+
+#form-container::before{
+  content: "";
+  position: absolute;
+  background : url("contact.jpg") no-repeat center center/cover ;
+  height: 370px;
+  width: 100%;
+  z-index: -1;
+  opacity: 64%;
+  right: 0px;
+  
+}
+#Contect-box{display: flex;
+justify-content: center;
+align-items: center ;
+padding-bottom:34px;}
+#Contect-box input,textarea{
+  width: 138%;
+  border-radius: 6px;
+
+}
+#Contect-box textarea{height:100px;}
+.form{font-size: 1.1rem;}
+
+.primary-center{text-align: center;
+  margin-top: 15px;
+font-size: 2.5rem;}
+.submit{align-items:center;
+  font-size: 1.5rem;
+  justify-content: center;
+width: 138%;
+background-color: red;
+border: 2px solid white;
+border-radius: 10px;}
+/* pupup section */
+.pupup{width: 400px;
+background: #fff;
+border-radius: 6px;
+position: absolute;
+top:0%;
+left:54%;
+transform: translate(-50%,-50%)scale(0.1);
+text-align: center;
+padding:0 30px 30px;
+color: #333;
+visibility: hidden;
+transition: transform 0.4s , top 0.4s;}
+.open-popup{visibility: visible;
+  top: 316%;
+  transform: translate(-50%,-50%)scale(1);
+}
+
+
+.pupup h2{font-size: 38px;
+font-weight: 500;
+margin: 30px 0 10px;
+}
+.pupup button{width: 100%;
+margin-top: 50px;
+padding:10px 0;
+background: #6fd649;
+color: #fff;
+border: 0;
+font-size: 18px;
+border-radius: 4px;
+cursor:pointer;}
+.pop-img{height:150px;
+width:150px;
+margin-top: -70px;
+border-radius: 50%;
+box-shadow: 0 2px 5px rgba(o, o, o, o.2);}
+
+/* footer section */
+.center{display: flex; 
+  align-items: center;
+  justify-content: center;
+  padding-top: 12px;
+  background-color: black;
+  color:white}
